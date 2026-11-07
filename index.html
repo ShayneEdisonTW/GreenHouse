@@ -802,9 +802,9 @@
      * ============================================================= */
     const SETTINGS = {
       API_URL: "https://script.google.com/macros/s/AKfycbz4B62S0zAvLdwfQFX1uSoaWbp1fDMj92URekvJJzzynif4v9Jhvj5t2P5seXmUDdeq/exec",                          // 例如 https://script.google.com/macros/s/XXXX/exec
-      REFRESH_INTERVAL_SECONDS: 30,          // 網頁讀取間隔（秒），與 D1 mini 上傳頻率分開設定
+      REFRESH_INTERVAL_SECONDS: 600,          // 網頁讀取間隔（秒），與 D1 mini 上傳頻率分開設定
       REQUEST_TIMEOUT_MS: 12000,             // 單次請求逾時（毫秒）
-      STALE_AFTER_SECONDS: 4200,              // 感測器最後一筆紀錄距今超過此秒數 =>「資料逾時」
+      STALE_AFTER_SECONDS: 3000,              // 感測器最後一筆紀錄距今超過此秒數 =>「資料逾時」
       SHOW_DEMO_IF_UNCONFIGURED: true        // 尚未填 API_URL 時，可預覽畫面
     };
 
